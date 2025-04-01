@@ -1,0 +1,239 @@
+/* Main background */
+.stApp {
+    background-color: #121212;
+    color: #FAFAFA;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #1E1E1E;
+}
+
+/* Headers and text */
+h1, h2, h3, h4, h5, h6, p, div, span {
+    font-family: 'Inter', 'Roboto', sans-serif !important;
+    color: #FAFAFA;
+}
+
+/* Primary headers with accent color */
+h1, h2 {
+    color: #4FC3F7 !important;
+    font-weight: 600;
+}
+
+/* Section cards */
+div.stBlock {
+    border-radius: 8px;
+    padding: 1.2rem;
+    background: rgba(40, 40, 40, 0.7);
+    border: 1px solid rgba(80, 80, 80, 0.2);
+    margin-bottom: 1rem;
+}
+
+/* Buttons styling */
+.stButton>button {
+    background: linear-gradient(90deg, #4FC3F7, #7F7FD5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(79, 195, 247, 0.3);
+}
+
+/* Slider styling */
+.stSlider > div > div {
+    background-color: rgba(79, 195, 247, 0.2);
+}
+
+.stSlider > div > div > div {
+    background: linear-gradient(90deg, #4FC3F7, #7F7FD5);
+}
+
+/* Metric containers */
+.metric-container {
+    background: rgba(40, 40, 40, 0.7);
+    border: 1px solid rgba(79, 195, 247, 0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4FC3F7;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #BBBBBB;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: rgba(30, 30, 30, 0.3);
+    border-radius: 8px;
+    padding: 0.3rem;
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: rgba(79, 195, 247, 0.2);
+    color: #4FC3F7;
+}
+
+/* Add subtle animation for loading */
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.loading-pulse {
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Progress bar */
+.stProgress > div > div > div {
+    background-color: #4FC3F7;
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 1px dashed rgba(79, 195, 247, 0.5);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.stFileUploader:hover {
+    border-color: #4FC3F7;
+}
+
+/* Download button */
+.stDownloadButton>button {
+    background: linear-gradient(90deg, #4FC3F7, #7F7FD5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stDownloadButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(79, 195, 247, 0.3);
+}
+
+/* Checkbox styling */
+.stCheckbox > div > div > div {
+    background-color: rgba(79, 195, 247, 0.2);
+}
+
+.stCheckbox > div > div > div:checked {
+    background-color: #4FC3F7;
+}
+
+/* Radio button styling */
+.stRadio > div {
+    gap: 10px;
+}
+
+.stRadio > div > div > div {
+    background-color: rgba(30, 30, 30, 0.5);
+    color: white;
+    border-radius: 5px;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid rgba(79, 195, 247, 0.2);
+}
+
+.stRadio > div > div > div[data-baseweb="radio"] [aria-checked="true"] {
+    background-color: rgba(79, 195, 247, 0.2);
+    color: #4FC3F7;
+}
+
+/* Dataframe styling */
+.stDataFrame {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stDataFrame thead tr th {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.stDataFrame tbody tr:nth-child(even) {
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.stDataFrame tbody tr:hover {
+    background-color: rgba(79, 195, 247, 0.1);
+}
+
+/* Selectbox styling */
+.stSelectbox > div > div {
+    background-color: rgba(30, 30, 30, 0.5);
+    border: 1px solid rgba(79, 195, 247, 0.3);
+    border-radius: 5px;
+}
+
+.stSelectbox > div > div:hover {
+    border-color: #4FC3F7;
+}
+
+/* Expander styling */
+.stExpander > div > div {
+    background-color: rgba(30, 30, 30, 0.5);
+    border: 1px solid rgba(79, 195, 247, 0.2);
+    border-radius: 8px;
+}
+
+.stExpander > div > div:hover {
+    border-color: rgba(79, 195, 247, 0.4);
+}
+
+/* Success message */
+.stAlert > div {
+    background-color: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    border-radius: 8px;
+    color: #4CAF50;
+}
+
+/* Warning message */
+.stWarning > div {
+    background-color: rgba(255, 152, 0, 0.1);
+    border: 1px solid rgba(255, 152, 0, 0.3);
+    border-radius: 8px;
+    color: #FF9800;
+}
+
+/* Error message */
+.stError > div {
+    background-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+    border-radius: 8px;
+    color: #F44336;
+}
+
+/* Info message */
+.stInfo > div {
+    background-color: rgba(79, 195, 247, 0.1);
+    border: 1px solid rgba(79, 195, 247, 0.3);
+    border-radius: 8px;
+    color: #4FC3F7;
+}
