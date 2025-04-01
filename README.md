@@ -6,7 +6,7 @@
 
 > **Transform your marketing data into actionable insights**
 
-![App Screenshot](https://i.ibb.co/CPyyGVf/attribution-engine-mockup.png)
+![Image](https://github.com/user-attachments/assets/63aed25c-0da8-463d-bd09-cb73590de8f6)
 
 ## 🚀 What Is This?
 
